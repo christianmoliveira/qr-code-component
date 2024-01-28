@@ -8,20 +8,25 @@
   
   <title>Frontend Mentor | QR code component</title>
 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/style.css">
+
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
   </style>
 </head>
-<body>
-  <main class="card">
-    <section class="qr-code">
+<body class="flex col a-center j-center">
+  <main class="card flex col j-space-around">
+    <section class="qr-code-img flex j-center">
       <img src="images/image-qr-code.png" alt="Frontend Mentor QR Code">
     </section>
-    <section class="text">
-      <h1>Improve your front-end skills by building projects</h1>
-      <p>
+    <section class="qr-code-text flex col a-center">
+      <h1 class="title">Improve your front-end skills by building projects</h1>
+      <p class="subtitle">
         Scan the QR code to visit Frontend Mentor and take your coding skills to the next level
       </p>
     </section>
